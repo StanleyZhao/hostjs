@@ -1,4 +1,3 @@
-$(document).ready( function(){
 
  var oldsummary1 = window.summary1;
     window.summary1 = function() {
@@ -6,4 +5,3 @@ $(document).ready( function(){
     console.log("test for override");
     oldsummary1();
   };
-});
